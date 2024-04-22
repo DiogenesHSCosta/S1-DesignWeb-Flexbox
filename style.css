@@ -1,6 +1,6 @@
 .caixa-cinza{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
 
     background-color: #686868;
 
@@ -37,15 +37,16 @@
 
 .caixa-branca{
     background-color: #fff;
-    border:solid 1px #eeff00;
+    border:dotted 2px black;
     padding: 20px;
     display: flex;
+    flex-wrap: wrap-reverse;
 }
 
 .caixa-wrap{
     width: 100px;
     height: 100px;
-    background-color: #ff7b00;
+    background-color: #a82912;
     color: #fff;
     display: flex;
     justify-content: center;
