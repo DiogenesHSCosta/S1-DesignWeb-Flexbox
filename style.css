@@ -10,7 +10,7 @@
 .caixa-direction{
     width: 100px;
     height: 100px;
-    
+
     background-color: #fff;
     border-radius: 15px;
     margin: 10px;
@@ -96,4 +96,28 @@
     background-color: #fab778;
     margin: 5px;
     border: 10px;
+}
+
+.caixa-roxa{
+    background-color: purple;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: stretch;
+}
+
+.caixa-roxa>div{
+    flex: 1; /* flex é um elemento binario, recebe 1 ou 0 elementos finais vão ocupar todo o espaço disponivel*/
+    min-height: 100px;
+    min-height: 50px;
+    margin: 5px;
+    background-color: rgb(255, 146, 3);
+    border: 1px solid black;
+    color: #fff;
+}
+
+/* usar para realizar um calculo de exibição */
+.caixa-roxa> :nth-child(odd){
+    order:-1/* Reordenar ímpares para aparecerem primeiro*/
 }
