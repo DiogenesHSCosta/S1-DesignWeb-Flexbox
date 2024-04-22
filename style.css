@@ -34,3 +34,22 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.caixa-branca{
+    background-color: #fff;
+    border:solid 1px #eeff00;
+    padding: 20px;
+    display: flex;
+}
+
+.caixa-wrap{
+    width: 100px;
+    height: 100px;
+    background-color: #ff7b00;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    position: relative;
+}
