@@ -1,5 +1,36 @@
-.caixas{
+.caixa-cinza{
     display: flex;
-    height: 100px;
+    flex-direction: row;
+
+    background-color: #686868;
+
+}
+
+.caixa-direction{
     width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 10px;
+    position: relative;
+}
+
+.numero{
+    font-size: 150%;
+    color:rgb(255, 230, 0);
+    font-weight: bold;
+}
+
+.circulo{
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+    background-color: #686868;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
